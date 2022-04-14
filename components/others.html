@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/css/fonts.css">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body style="background-color: aqua;">
+  <section class="options">
+    <div class="option">
+      <div class="option__container"><img class="option__vector" src="/assets/images/VectorDoor.svg" alt="">
+        <p>درب و پنجره</p>
+      </div>
+    </div>
+    <div class="option">
+      <div class="option__container"><img class="option__vector" src="/assets/images/VectorPlant.svg" alt="">
+        <p>گل و گیاه</p>
+      </div>
+    </div>
+    <div class="option">
+      <div class="option__container"><img class="option__vector" src="/assets/images/VectorCharger.svg" alt="">
+        <p>وسایل برقی</p>
+      </div>
+    </div>
+    <div class="option">
+      <div class="option__container"><img class="option__vector" src="/assets/images/VectorLamp.svg" alt="">
+        <p>روشنایی</p>
+      </div>
+    </div>
+    <div class="option">
+      <div class="option__container"><img class="option__vector" src="/assets/images/VectorRadiator.svg" alt="">
+        <p>گرمایشی</p>
+      </div>
+    </div>
+    <div class="option">
+      <div class="option__container"><img class="option__vector" src="/assets/images/VectorPet.svg" alt="">
+        <p>حیوانات</p>
+      </div>
+    </div>
+  </section>
+  <div class="option-text">
+    <h2>مدیریت با دستگاه مرکزی</h2>
+    <p>بانواز برای مدیریت و کنترل سنسورهای خودش از یک دستگاه مرکزی استفاده میکنه که همه چیز تحت کنترل همین دستگاه
+      مرکزیه.
+      دستگاه به کمک اینترنت به گوشی شما متصل میشه و شما میتونین همه چیزو تحت کنترل خودتون بگیرین.
+    </p>
+  </div>
+  <img class="option-device" src="/assets/images/Device.png" alt="">
+</body>
+
+</html>
+
+<!-- /* LIST */
+
+.list li {
+  list-style: none;
+  font-size: 1.6rem;
+  color: #fff;
+  margin-top: 1.7rem;
+  padding-right: 1.5rem;
+}
+
+.vertical li:nth-child(1) {
+  font-size: 2rem;
+}
+
+.vertical li:nth-child(5) {
+  font-size: 2rem;
+}
+
+/* .list--footers .list__footer {
+  font-size: 1.6rem;
+  margin-top: 1.3rem;
+} */
+
+@media screen and (min-width: 1024px) {
+  .list--footers .list__footer {
+    font-size: 2rem;
+    margin-top: 1.2rem;
+  }
+  .vertical li:nth-child(1) {
+    font-size: 2.4rem;
+  }
+
+  .vertical li:nth-child(5) {
+    font-size: 2.4rem;
+  }
+}
+
+
+
+/* OPTIONS SECTION */
+
+.options {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 2rem 3rem;
+}
+
+.option {
+  margin-right: 4.7rem;
+  margin-top: 2rem;
+  display: flex;
+}
+
+.option__vector {
+  position: relative;
+  top: 1.5rem;
+  right: 1.5rem;
+  width: 5rem;
+  height: 5rem;
+}
+
+.option__container {
+  background-color: #fff;
+  border-radius: 1.4rem;
+  width: 8.4rem;
+  height: 8.4rem;
+}
+
+.option p {
+  margin-top: 2.5rem;
+  font-size: 1.8rem;
+  text-align: center;
+  white-space: nowrap;
+  color: #fff;
+}
+
+@media screen and (min-width: 1024px) {
+  /* .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  } */
+  .options {
+    display: flex;
+    margin-top: 2rem;
+  }
+  .option {
+    margin-top: 2rem;
+    margin: 0 auto;
+    display: flex;
+  }
+  .option__vector {
+    position: relative;
+    top: 3rem;
+    right: 5rem;
+    width: 5.5rem;
+    height: 8.7rem;
+  }
+  .option__container {
+    background-color: #fff;
+    border-radius: 1.4rem;
+    width: 15rem;
+    height: 15rem;
+  }
+  .option p {
+    justify-content: center;
+    margin-top: 4rem;
+    font-size: 4rem;
+  }
+} -->
+
+
+<!-- 
+
+ 
+.container-phone {
+  max-width: 1140px;
+  margin: 10rem auto;
+  background-color: #fff;
+  width: 144rem;
+  height: 50rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.container-phone h3{
+  margin-right: 151px;
+  margin-top: 16.2rem;
+}
+
+.phone img {
+  width: 258px;
+  height: 532px;
+}
+
+.btn2 {
+  display: flex;
+  justify-content: flex-start;
+} -->
