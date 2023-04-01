@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Yekan";
+  font-weight: normal;
+  font-style: normal;
+  src: url(/assets/fonts/Yekan.woff) format(woff);
+}
+
+@font-face {
+  font-family: "Yekan";
+  font-weight: normal;
+  font-style: normal;
+  src: url(/assets/fonts/Yekan.woff2) format(woff2);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body,
+button {
+  font-family: "Yekan";
+}
+
