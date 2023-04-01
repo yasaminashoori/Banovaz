@@ -28,3 +28,4 @@ accordionHeaders.forEach((item) => {
     e.target.parentElement.classList.toggle("accordion__expanded");
   });
 });
+
