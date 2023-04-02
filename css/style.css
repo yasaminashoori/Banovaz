@@ -149,7 +149,6 @@ h2 {
   box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 12px;
 }
 
-
 .nav {
   display: flex;
   justify-content: space-between;
@@ -366,7 +365,6 @@ h2 {
   margin-top: 2rem;
 }
 
-
 .home--phone {
   display: none;
   width: 20%;
@@ -385,7 +383,6 @@ h2 {
   margin-top: 3rem;
   font-size: 1.4rem;
 }
-
 
 @media screen and (min-width: 1024px) {
   .home {
@@ -553,9 +550,6 @@ h2 {
 }
 
 /* Special */
-.special {
-}
-
 .special--holder {
   padding: 3rem;
   margin-top: 4rem;
@@ -596,7 +590,6 @@ h2 {
     margin-right: 5rem;
   }
   .special {
-    
   }
   .special--image img {
     max-width: 200px;
@@ -637,10 +630,6 @@ h2 {
 .device--heading {
   margin-top: 5rem;
   margin-bottom: 2rem;
-}
-
-.device--text {
- 
 }
 
 .device--image img {
@@ -707,6 +696,11 @@ h2 {
   margin-left: 7rem;
 }
 
+.footer__item a:hover,
+h6:hover {
+  color: var(--color-primary);
+}
+
 @media screen and (min-width: 768px) {
   .main-footer .footer {
     flex-direction: row;
@@ -732,10 +726,12 @@ h2 {
     width: 60%;
     height: auto;
   }
-
   .big-enemad2 img {
     width: 60%;
     height: auto;
+  }
+  .footer__enemad {
+    margin-bottom: -1rem;
   }
 }
 
@@ -746,7 +742,6 @@ h2 {
   padding-right: 10rem;
   justify-content: flex-start;
 }
-
 
 .hr-color {
   color: #f6f6f6;
