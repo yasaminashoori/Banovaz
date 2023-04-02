@@ -675,22 +675,22 @@ h2 {
   margin-bottom: 1rem;
 }
 
-.big-enemad img {
+.big-app img {
   width: 30%;
   height: auto;
 }
 
-.big-enemad2 img {
+.big-app2 img {
   width: 30%;
   height: auto;
 }
 
-.footer__item.enemad {
+.footer__item.app {
   display: flex;
   flex-direction: column;
 }
 
-.footer__enemad {
+.footer__app {
   border-radius: 10px;
   padding: 1rem 0.5rem;
   margin-left: 7rem;
@@ -722,15 +722,15 @@ h6:hover {
     flex-direction: column;
     justify-content: space-between;
   }
-  .big-enemad img {
+  .big-app img {
     width: 60%;
     height: auto;
   }
-  .big-enemad2 img {
+  .big-app2 img {
     width: 60%;
     height: auto;
   }
-  .footer__enemad {
+  .footer__app {
     margin-bottom: -1rem;
   }
 }
