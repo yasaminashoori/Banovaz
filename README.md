@@ -10,10 +10,26 @@ Banovaz is a Home Control Service that manages your home's devices, lights, and 
 <br>
 # Mobile : 
 <img
-  src="/assets/images/screencapture-tapsi-yasaminashoori-netlify-app-2023-03-26-16_57_38.png"
+  src="/assets/images/after-mobile.png"
   alt="Alt text"
   title="Optional title"
   style="display: inline-block; margin: 0 auto; max-width: 100px">
 
+ # Also you can see the before and after layout of the site below:  back to the time when I was so beginner!
+ # Before : 
 
-You can see the before and after layout of the site below:  back to the time when I was so beginner!
+<img
+  src="/assets/images/before-desktop.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
+  
+ # After :
+ 
+ <img
+  src="/assets/images/after-desktop.png"
+  alt="Alt text"
+  title="Optional title"
+  style="display: inline-block; margin: 0 auto; max-width: 100px">
+ 
+
