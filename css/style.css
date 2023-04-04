@@ -248,6 +248,9 @@ h2 {
 /* TOGGLER */
 .nav__toggler {
   cursor: pointer;
+  background-color: var(--color-heading);
+  padding: 0.5rem 0.8rem;
+  border-radius: 5px;
 }
 
 .bar {
