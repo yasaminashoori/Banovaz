@@ -37,7 +37,7 @@ body {
   font-size: 1.6rem;
   background: radial-gradient(
     circle at 10% 20%,
-    rgb(222, 132, 215) 0%,
+    rgb(149, 219, 254) 0%,
     rgb(52, 157, 209) 90.1%
   );
 }
@@ -649,8 +649,7 @@ h2 {
 
 /* Footer */
 .main-footer {
-  /* background-color: var(--color-heading); */
-  background-color: #74bbd9;
+  background-color: var(--color-heading);
   color: white;
   min-height: 200px;
 }
@@ -787,47 +786,4 @@ h6:hover {
     margin-left: 1rem;
     margin-bottom: 4rem;
   }
-}
-
-
-.logo-ban{
-  width: 100px;
-  height: 100px;
-}
-
-.manage--image{
-  width: 40rem;
-  height: 60rem;
-}
-
-.special--image.two img{
-  width: 200px;
-}
-
-.special--image.first img{
-  width: 200px;
-}
-
-.special--image.third img{
-  width: 200px;
-}
-
-.special--image.forth img{
-  width: 220px;
-}
-
-.friends--image img{
-  margin-left: 10rem;
-}
-
-.friends--intro{
-  margin-left: 5rem;
-}
-
-.option-p{
-  margin-right: 1.5rem;
-}
-
-.option-p.p2{
-  margin-right: -1rem;
 }
