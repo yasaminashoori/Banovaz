@@ -1,5 +1,7 @@
 # Banovaz
 Banovaz is a Home Control Service that manages your home's devices, lights, and ....
+ 
+Last Update: Image Optimized.
 
 # Desktop : 
 <img
