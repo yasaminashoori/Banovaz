@@ -211,9 +211,6 @@ h2 {
   color: var(--color-white);
 }
 
-.nav__toggler {
-}
-
 @media screen and (min-width: 768px) {
   .nav {
     padding: 0.2rem 2rem;
